@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageSlideIcon"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/screen1" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageSlideIcon"
+        android:id="@+id/textTitlee"
+        android:textSize="25sp"
+        android:text="Stay fit at home"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textDescription1"
+        android:layout_below="@+id/textTitlee"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="Provide daily work out routines for all"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textDescription2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textDescription1"
+        android:textSize="15sp"
+        android:text="your main muscle group"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
